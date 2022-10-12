@@ -14,7 +14,7 @@ An api service for etherscan.io
 To install this package tou can use composer:
 
 ```bash
-    composer require qwerty/tmdb
+    composer require slvler/ether
 ```
 
 ## Usage
