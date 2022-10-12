@@ -1,0 +1,40 @@
+{
+    "name": "slvler/ether",
+    "description": "etherscan api",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "slvler",
+            "email": "56368718+hs-qwerty@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Slvler\\Ether\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Slvler\\Ether\\Tests\\": "tests/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^6.18.0",
+        "phpunit/phpunit": "^9.5",
+        "guzzlehttp/guzzle": "^7.0.1"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit tests"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Slvler\\Ether\\EtherServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
