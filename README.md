@@ -1,8 +1,8 @@
 # slvler - Etherscan Service
 
-[![Latest Stable Version](http://poser.pugx.org/qwerty/tmdb/v)](https://packagist.org/packages/qwerty/tmdb)
-[![Latest Unstable Version](http://poser.pugx.org/qwerty/tmdb/v/unstable)](https://packagist.org/packages/qwerty/tmdb)
-[![License](http://poser.pugx.org/qwerty/tmdb/license)](https://packagist.org/packages/qwerty/tmdb)
+[![Latest Stable Version](http://poser.pugx.org/slvler/ether/v)](https://packagist.org/packages/slvler/ether)
+[![Latest Unstable Version](http://poser.pugx.org/slvler/ether/v/unstable)](https://packagist.org/packages/slvler/ether)
+[![License](https://img.shields.io/github/license/slvler/etherscan-service)](https://packagist.org/packages/slvler/ether)
 
 
 
