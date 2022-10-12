@@ -1,14 +1,11 @@
 <?php
 
-
 namespace Slvler\Ether\Tests;
 
 use Slvler\Ether\EtherServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {
-
-
     protected function setUp(): void
     {
         parent::setUp();
@@ -23,6 +20,5 @@ class TestCase extends \Orchestra\Testbench\TestCase
 
     protected function getEnvironmentSetUp($app)
     {
-
     }
 }
