@@ -1,8 +1,8 @@
 <?php
 
-namespace Slvler\Ether\Services;
+namespace slvler\ether\Services;
 
-use Slvler\Ether\Resources\Balance;
+use slvler\ether\Resources\Balance;
 
 class EtherScanService
 {

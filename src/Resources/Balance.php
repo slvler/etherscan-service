@@ -1,6 +1,6 @@
 <?php
 
-namespace Slvler\Ether\Resources;
+namespace slvler\ether\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 
