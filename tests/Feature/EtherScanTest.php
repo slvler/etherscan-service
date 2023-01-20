@@ -1,9 +1,9 @@
 <?php
 
-namespace Slvler\Ether\Tests\Feature;
+namespace slvler\ether\Tests\Feature;
 
-use Slvler\Ether\Services\EtherScanService;
-use Slvler\Ether\Tests\TestCase;
+use slvler\ether\Services\EtherScanService;
+use slvler\ether\Tests\Unit\TestCase;
 
 class EtherScanTest extends TestCase
 {

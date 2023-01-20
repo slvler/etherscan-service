@@ -1,8 +1,8 @@
 <?php
 
-namespace Slvler\Ether\Tests;
+namespace slvler\ether\Tests\Unit;
 
-use Slvler\Ether\EtherServiceProvider;
+use slvler\ether\EtherServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {

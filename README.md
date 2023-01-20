@@ -137,4 +137,4 @@ To install this package tou can use composer:
 
 ## License
 
-The MIT License (MIT). Please see [License File](https://github.com/hs-qwerty/TMDB/blob/main/LICENSE.md) for more information.
+The MIT License (MIT). Please see [License File](https://github.com/slvler/etherscan-service/blob/main/README.md) for more information.

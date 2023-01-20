@@ -1,22 +1,22 @@
 {
     "name": "slvler/ether",
-    "description": "etherscan api",
-    "type": "package",
     "license": "MIT",
+    "description": "An api service for etherscan.io",
+    "type": "package",
     "authors": [
         {
             "name": "slvler",
-            "email": "56368718+hs-qwerty@users.noreply.github.com"
+            "email": "slvler@proton.me"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Slvler\\Ether\\": "src/"
+            "slvler\\ether\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Slvler\\Ether\\Tests\\": "tests/"
+            "slvler\\ether\\Tests\\": "tests/"
         }
     },
     "require": {},
@@ -31,7 +31,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Slvler\\Ether\\EtherServiceProvider"
+                "slvler\\ether\\EtherServiceProvider"
             ]
         }
     },
