@@ -1,5 +1,6 @@
 # slvler - Etherscan Service
 
+[![tests](https://github.com/slvler/etherscan-service/actions/workflows/tests.yml/badge.svg)](https://github.com/slvler/etherscan-service/actions/workflows/tests.yml)
 [![Latest Stable Version](http://poser.pugx.org/slvler/ether/v)](https://packagist.org/packages/slvler/ether)
 [![Latest Unstable Version](http://poser.pugx.org/slvler/ether/v/unstable)](https://packagist.org/packages/slvler/ether)
 [![License](https://img.shields.io/github/license/slvler/etherscan-service)](https://packagist.org/packages/slvler/ether)
