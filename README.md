@@ -26,13 +26,12 @@ To install this package tou can use composer:
     php artisan vendor:publish --tag=ether
 ```
 
-- API key to be obtained from etherscan.io address should be declared.
+- First of all we'll add the API key and API Url of the service we're using to our .env file of our project. If you don't have an account yet on api.etherscan.io, you should create one. Once you have an account you can copy your API key from the dashboard page and put it into you .env file.
+
 
 ```php
-    'ether' => [
-        'etherscan_url' => 'https://api.etherscan.io/',
-        'etherscan_key' => 'XXXXXXXXXXXXXXXXXXXXXXXX'
-    ]
+    ETHERSCAN_BASE_URL=https://api.etherscan.io/
+    ETHERSCAN_API_KEY=YOUR-API-KEY
 ```
 
 - This is how you can connect to the etherscan api service.
