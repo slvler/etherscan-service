@@ -2,9 +2,19 @@
 
 return [
 
+    
+    /*
+    |--------------------------------------------------------------------------
+    | Default definitions
+    |--------------------------------------------------------------------------
+    |
+    | Default http address, secret key
+    |
+    */
+    
     'ether' => [
-        'etherscan_url' => 'https://api.etherscan.io/',
-        'etherscan_key' => 'XXXXXXXXXXXXXXXXXXXXX',
+        'etherscan_url' => env('ETHERSCAN_BASE_URL'),
+        'etherscan_key' => env('ETHERSCAN_API_KEY'),
     ],
 
 ];
