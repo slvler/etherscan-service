@@ -12,10 +12,8 @@ class EtherScanService
 
     public function __construct()
     {
-        //$this->base_url = config('etherscan.ether.etherscan_url');
-        //$this->api_key = config('etherscan.ether.etherscan_key');
-        $this->base_url = 'https://api.etherscan.io/';
-        $this->api_key = 'WI48Q1V6RFNY7E1U773E2J5EAB8A1ZG8UM';
+        $this->base_url = config('etherscan.ether.etherscan_url');
+        $this->api_key = config('etherscan.ether.etherscan_key');
 
         $this->client = new \GuzzleHttp\Client(
             ['base_uri' => $this->base_url]
