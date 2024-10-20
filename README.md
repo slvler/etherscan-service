@@ -4,6 +4,8 @@
 [![Latest Stable Version](https://poser.pugx.org/slvler/ether/v)](https://packagist.org/packages/slvler/ether)
 [![Latest Unstable Version](https://poser.pugx.org/slvler/ether/v/unstable)](https://packagist.org/packages/slvler/ether)
 [![License](https://img.shields.io/github/license/slvler/etherscan-service)](https://packagist.org/packages/slvler/ether)
+[![Total Downloads](https://poser.pugx.org/slvler/ether/downloads)](https://packagist.org/packages/slvler/ether)
+
 
 An api service for etherscan.io
 
