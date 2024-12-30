@@ -1,8 +1,8 @@
 <?php
 
-namespace slvler\ether\Tests\Unit;
+namespace Slvler\Ether\Tests\Unit;
 
-use slvler\ether\EtherServiceProvider;
+use Slvler\Ether\EtherServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {
@@ -18,7 +18,5 @@ class TestCase extends \Orchestra\Testbench\TestCase
         ];
     }
 
-    protected function getEnvironmentSetUp($app)
-    {
-    }
+    protected function getEnvironmentSetUp($app) {}
 }

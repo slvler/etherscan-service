@@ -8,7 +8,9 @@ use Slvler\Ether\Resources\Balance;
 class EtherScanService
 {
     private $base_url;
+
     private $api_key;
+
     private $client;
 
     public function __construct()
