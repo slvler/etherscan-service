@@ -1,8 +1,9 @@
 <?php
 
-namespace slvler\ether\Services;
+namespace Slvler\Ether\Services;
 
-use slvler\ether\Resources\Balance;
+use Slvler\Ether\Exception\MissingApiKey;
+use Slvler\Ether\Resources\Balance;
 
 class EtherScanService
 {
@@ -12,8 +13,14 @@ class EtherScanService
 
     public function __construct()
     {
-        $this->base_url = config('etherscan.ether.etherscan_url');
-        $this->api_key = config('etherscan.ether.etherscan_key');
+
+        $apiKey = config('etherscan.ether.api_key');
+        if (empty($apiKey) || ! isset($apiKey)) {
+            throw MissingApiKey::create();
+        }
+
+        $this->base_url = config('etherscan.ether.base_url');
+        $this->api_key = $apiKey;
 
         $this->client = new \GuzzleHttp\Client(
             ['base_uri' => $this->base_url]
