@@ -15,7 +15,6 @@ class EtherScanService
 
     public function __construct()
     {
-
         $apiKey = config('etherscan.ether.api_key');
         if (empty($apiKey) || ! isset($apiKey)) {
             throw MissingApiKey::create();

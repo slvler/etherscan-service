@@ -2,4 +2,6 @@
 
 namespace Slvler\Ether\Exception;
 
-class MissingArgumentException {}
+class MissingArgumentException
+{
+}
